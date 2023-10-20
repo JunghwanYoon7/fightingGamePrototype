@@ -146,7 +146,7 @@ class Fighter():
     else:
       self.update_action(0)#0:idle
 
-    animation_cooldown = 500
+    animation_cooldown = 75
     #update image
     self.image = self.animation_list[self.action][self.frame_index]
     #check if enough time has passed since the last update
